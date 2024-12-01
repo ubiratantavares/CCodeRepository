@@ -23,7 +23,6 @@ struct retangulo {
 };
 
 int main() {
-
 	Ponto* p_inf = criarPonto(0., 0.);
 	Ponto* p_sup = criarPonto(5., 6.);
 	Retangulo* r = criarRetangulo(*p_inf, *p_sup);
@@ -34,6 +33,5 @@ int main() {
 	liberarPonto(p_sup);
 	liberarPonto(p);
 	liberarRetangulo(r);
-
 	return 0;
 }
